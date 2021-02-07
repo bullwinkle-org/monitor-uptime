@@ -1,7 +1,7 @@
 # Change these first
 owner: bullwinkle-org
  # Your GitHub username
-repo: monitor-uptime # Your GitHub repository name
+repo: bullwinkle-org/monitor-uptime # Your GitHub repository name
 
 # Add your sites here
 sites:
