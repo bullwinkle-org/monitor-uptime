@@ -7,14 +7,20 @@ assignees:
 user-agent: bullwinkle  
 
 sites:
-  - name: $ORG_DOMAIN
-    url: $ORG_DOMAIN
+  - name: bullwinkle.ml
+    url: https://bullwinkle.ml
 
-  - name: $MY_DOMAIN
-    url: $MY_DOMAIN
+  - name: ui.bullwinkle.ml
+    url: https://ui.bullwinkle.ml
 
-  - name: $MY_DOMAIN_2
-    url: $MY_DOMAIN_2
+  - name: db.bullwinkle.ml
+    url: https://db.bullwinkle.ml
+
+  - name: workspace.bullwinkle.ml
+    url: https://workspace.bullwinkle.ml
+
+  - name: realm-app-one.bullwinkle.ml
+    url: https://realm-app-one.bullwinkle.ml
 
 status-website:
   name: "Bullwinkle's org upptime"
