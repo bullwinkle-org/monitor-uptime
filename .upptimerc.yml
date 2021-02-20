@@ -4,7 +4,7 @@ repo: monitor-uptime  # Your GitHub repository name
 
 # Add your sites here
 sites:
-  - name: $ORG_DOMAIN (organization site)
+  - name: ${{ secrets.ORG_DOMAIN }}(organization site)
     url: $ORG_DOMAIN
   - name: Google
     url: https://www.google.com
@@ -31,9 +31,9 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: ${{ OWNER }} on GitHub
+    - title: "$OWNER on GitHub"
       href: https://github.com/$OWNER
-    - title: ${{ $REPO }} on GitHub (this repo)
+    - title: "$REPO on GitHub (this repo)"
       href: https://github.com/$OWNER/$REPO
     - title: ${{ repo }} on GitHub (this repo)
       href: https://github.com/$OWNER/$REPO
