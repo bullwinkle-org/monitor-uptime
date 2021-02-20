@@ -1,33 +1,39 @@
-# Change these first
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime  # Your GitHub repository name
 
-# Add your sites here
+assignees:
+  - bullwinkle
+  
+user-agent: bullwinkle  
+
 sites:
   - name: $ORG_DOMAIN
     url: $ORG_DOMAIN
-    
-assignees:
-  - Bullwinkle
+
+  - name: $MY_DOMAIN
+    url: $MY_DOMAIN
+
+  - name: $MY_DOMAIN_2
+    url: $MY_DOMAIN_2
 
 status-website:
   name: "Bullwinkle's org upptime"
   cname: monitor.bullwinkle.ml
-  theme: dark
-  # Add your custom domain below, or remove the next line if you don't have a domain
+  # Custom domain below, or remove the next line if you don't have a domain
   # Uncomment the following line if you don't have a custom domain and add your repo name
   # baseUrl: /monitor-uptime
+  theme: dark
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
   navbar:
     - title: Status
       href: /
-    - title: echo "$OWNER on GitHub"
+
+    - title: "Bullwinkle's org on GitHub"
       href: https://github.com/$OWNER
-    - title: "$REPO on GitHub (this repo)"
-      href: https://github.com/$OWNER/$REPO
-    - title: ${{ repo }} on GitHub (this repo)
+
+    - title: "Current repo page on GitHub"
       href: https://github.com/$OWNER/$REPO
 
 workflowSchedule:
