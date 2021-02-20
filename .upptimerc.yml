@@ -19,10 +19,11 @@ sites:
     url: https://www.google.com
 
 status-website:
+  theme: dark
   # Add your custom domain below, or remove the next line if you don't have a domain
-#  cname: monitor.bullwinkle.ml
+  # cname: monitor.bullwinkle.ml
   # Uncomment the following line if you don't have a custom domain and add your repo name
-   baseUrl: /monitor-uptime
+  baseUrl: /monitor-uptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Bullwinkle's org upptime
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
@@ -30,10 +31,14 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: ${{ owner }} on GitHub
+    - title: ${{ OWNER }} on GitHub
       href: https://github.com/$OWNER
-    - title: $REPO on GitHub (this repo)
+    - title: ${{ $REPO }} on GitHub (this repo)
       href: https://github.com/$OWNER/$REPO
+    - title: ${{ repo }} on GitHub (this repo)
+      href: https://github.com/$OWNER/$REPO
+
+  OWNER
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
