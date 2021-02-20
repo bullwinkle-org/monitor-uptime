@@ -104,6 +104,6 @@ dist
 .tern-port
 
 # My
-../bullwinkle-org.github.io/.idea
+.idea
 .DS_Store
 tmp
