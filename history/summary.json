@@ -1,6 +1,6 @@
 [
   {
-    "name": "${{ secrets.ORG_DOMAIN }}(organization site)",
+    "name": "${{secrets.ORG_DOMAIN}} (organization site)",
     "url": "$ORG_DOMAIN",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "secrets-org-domain-organization-site",
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 68,
-    "timeDay": 49,
-    "timeWeek": 73,
-    "timeMonth": 68,
-    "timeYear": 68,
+    "time": 67,
+    "timeDay": 50,
+    "timeWeek": 72,
+    "timeMonth": 67,
+    "timeYear": 67,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 129,
-    "timeDay": 46,
-    "timeWeek": 148,
-    "timeMonth": 129,
-    "timeYear": 129,
+    "time": 125,
+    "timeDay": 43,
+    "timeWeek": 139,
+    "timeMonth": 125,
+    "timeYear": 125,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 398,
-    "timeDay": 439,
-    "timeWeek": 381,
-    "timeMonth": 398,
-    "timeYear": 398,
+    "time": 399,
+    "timeDay": 436,
+    "timeWeek": 383,
+    "timeMonth": 399,
+    "timeYear": 399,
     "dailyMinutesDown": {}
   },
   {
