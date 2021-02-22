@@ -1,22 +1,47 @@
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime  # Your GitHub repository name
 
-user-agent: bullwinkle-org
+user-agent: bullwinkle
 
 assignees:
-  - bullwinkle
+  - bullwinkle-org
 
 status-website:
-  theme: ocean # light, dark, ocean
   name: "Bullwinkle's org upptime"
+  theme: dark # light, dark, ocean
   cname: monitor.bullwinkle.ml # if you use custom domain
   # baseUrl: /monitor-uptime # if you DO NOT use custom domain
-  logoUrl: https://avatars.githubusercontent.com/u/77125363?s=200&v=4
+  apiBaseUrl: https://api.github.com
+  themeUrl: /css/bullwinkle-theme-dark.css
+  logoUrl: /images/brand.png
+  favicon: /images/icon.png
+  # faviconSvg: https://example.com/logo.svg
+  scripts:
+    - src: /js/script-1.js
+    - src: /js/script-2.js
+      async: true
+  js: "window.onload = function() { alert('Hello!') }"
+  links:
+    - rel: stylesheet
+      href: /css/script-1.js
+  css: "body { opacity: 0.5 }"
+  metaTags:
+    - name: "color-scheme"
+      content: "dark light"
+    - name: "robots"
+      content: "noindex"
+  robotsText: "User-agent: * \n Disallow: /"
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
+  customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
+  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
+
   navbar:
     - title: Status
       href: /
+
+    - title: About
+      href: /about
 
     - title: "Bullwinkle's org on GitHub"
       href: https://github.com/$OWNER
