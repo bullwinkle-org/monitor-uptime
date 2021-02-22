@@ -19,7 +19,7 @@ status-website:
   #  theme: dark # light, dark, ocean
   #  apiBaseUrl: https://api.github.com
   #  themeUrl: https://monitor.bullwinkle.ml/css/bullwinkle-theme-dark.css
-  logoUrl: https://monitor.bullwinkle.ml/brand.png
+  logoUrl: brand.png
   #  favicon: https://monitor.bullwinkle.ml/icon.png
   #  faviconSvg: https://monitor.bullwinkle.ml/images/icon.png
   #  scripts:
@@ -30,11 +30,20 @@ status-website:
   links:
     - rel: stylesheet
       href: https://monitor.bullwinkle.ml/styles-test.css
+
+    - rel: stylesheet
+      href: https://monitor.bullwinkle.ml/assets/styles-test.css
+
+    - rel: stylesheet
+      href: styles-test.css
+
+    - rel: stylesheet
+      href: assets/styles-test.css
   #  css: "body { opacity: 0.5 }"
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
-  customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
-  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
+  #  customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
+  #  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
 
   navbar:
     - title: Status
