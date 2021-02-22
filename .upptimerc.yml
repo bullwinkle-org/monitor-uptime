@@ -1,7 +1,7 @@
-owner: bullwinkle # Your GitHub username
-repo: monitor-uptime  # Your GitHub repository name
+owner: bullwinkle-org # Your GitHub username
+repo: monitor-uptime # Your GitHub repository name
 
-user-agent: bullwinkle
+user-agent: bullwinkle-org
 
 assignees:
   - bullwinkle
