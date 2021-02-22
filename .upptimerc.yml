@@ -19,8 +19,8 @@ status-website:
   theme: dark # light, dark, ocean
 #  apiBaseUrl: https://api.github.com
 #  themeUrl: https://monitor.bullwinkle.ml/css/bullwinkle-theme-dark.css
-#  logoUrl: https://monitor.bullwinkle.ml/images/brand.png
-#  favicon: https://monitor.bullwinkle.ml/images/icon.png
+  logoUrl: https://monitor.bullwinkle.ml/brand.png
+  favicon: https://monitor.bullwinkle.ml/icon.png
 #  faviconSvg: https://monitor.bullwinkle.ml/images/icon.png
 #  scripts:
 #    - src: https://monitor.bullwinkle.ml/js/script-1.js
