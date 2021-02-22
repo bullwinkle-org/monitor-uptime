@@ -27,10 +27,10 @@ status-website:
       content: "noindex"
   theme: dark # light, dark, ocean
   logoUrl: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/master/assets/brand.png
-  themeUrl: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/master/assets/bullwinkle-theme-dark.css
+  themeUrl: https://monitor.bullwinkle.ml/bullwinkle-theme-dark.css
   links:
     - rel: stylesheet
-      href: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/master/assets/styles-test.css
+      href: https://monitor.bullwinkle.ml/styles-test.css
 
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
