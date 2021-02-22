@@ -1,7 +1,7 @@
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime  # Your GitHub repository name
 
-user-agent: bullwinkle
+user-agent: bullwinkle-org
 
 assignees:
   - bullwinkle-org
@@ -16,11 +16,11 @@ status-website:
 #    - name: "robots"
 #      content: "noindex"
 #  robotsText: "User-agent: * \n Disallow: /"
-  theme: dark # light, dark, ocean
+#  theme: dark # light, dark, ocean
 #  apiBaseUrl: https://api.github.com
 #  themeUrl: https://monitor.bullwinkle.ml/css/bullwinkle-theme-dark.css
   logoUrl: https://monitor.bullwinkle.ml/brand.png
-  favicon: https://monitor.bullwinkle.ml/icon.png
+#  favicon: https://monitor.bullwinkle.ml/icon.png
 #  faviconSvg: https://monitor.bullwinkle.ml/images/icon.png
 #  scripts:
 #    - src: https://monitor.bullwinkle.ml/js/script-1.js
@@ -39,9 +39,6 @@ status-website:
   navbar:
     - title: Status
       href: /
-
-    - title: About
-      href: /about/
 
     - title: "Bullwinkle's org on GitHub"
       href: https://github.com/$OWNER
