@@ -18,18 +18,18 @@ status-website:
   theme: dark # light, dark, ocean
   # baseUrl: /monitor-uptime # if you DO NOT use custom domain
   apiBaseUrl: https://api.github.com
-  themeUrl: /css/bullwinkle-theme-dark.css
-  logoUrl: /images/brand.png
-  favicon: /images/icon.png
-  faviconSvg: /images/icon.png
+  themeUrl: https://monitor.bullwinkle.ml/css/bullwinkle-theme-dark.css
+  logoUrl: https://monitor.bullwinkle.ml/images/brand.png
+  favicon: https://monitor.bullwinkle.ml/images/icon.png
+  faviconSvg: https://monitor.bullwinkle.ml/images/icon.png
   scripts:
-    - src: /js/script-1.js
-    - src: /js/script-2.js
+    - src: https://monitor.bullwinkle.ml/js/script-1.js
+    - src: https://monitor.bullwinkle.ml/js/script-2.js
       async: true
   js: "window.onload = function() { console.warn('zero'); }"
   links:
     - rel: stylesheet
-      href: /css/styles-test.css
+      href: https://monitor.bullwinkle.ml/css/styles-test.css
   css: "body { opacity: 0.5 }"
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
