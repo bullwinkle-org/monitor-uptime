@@ -1,36 +1,36 @@
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime  # Your GitHub repository name
 
-user-agent: bullwinkle-org
+user-agent: bullwinkle
 
 assignees:
-  - bullwinkle-org
+  - bullwinkle
 
 status-website:
   name: "Bullwinkle's org upptime"
   cname: monitor.bullwinkle.ml # if you use custom domain
   # baseUrl: /monitor-uptime # if you DO NOT use custom domain
-#  metaTags:
-#    - name: "color-scheme"
-#      content: "dark light"
-#    - name: "robots"
-#      content: "noindex"
-#  robotsText: "User-agent: * \n Disallow: /"
-#  theme: dark # light, dark, ocean
-#  apiBaseUrl: https://api.github.com
-#  themeUrl: https://monitor.bullwinkle.ml/css/bullwinkle-theme-dark.css
+  #  metaTags:
+  #    - name: "color-scheme"
+  #      content: "dark light"
+  #    - name: "robots"
+  #      content: "noindex"
+  #  robotsText: "User-agent: * \n Disallow: /"
+  #  theme: dark # light, dark, ocean
+  #  apiBaseUrl: https://api.github.com
+  #  themeUrl: https://monitor.bullwinkle.ml/css/bullwinkle-theme-dark.css
   logoUrl: https://monitor.bullwinkle.ml/brand.png
-#  favicon: https://monitor.bullwinkle.ml/icon.png
-#  faviconSvg: https://monitor.bullwinkle.ml/images/icon.png
-#  scripts:
-#    - src: https://monitor.bullwinkle.ml/js/script-1.js
-#    - src: https://monitor.bullwinkle.ml/js/script-2.js
-#      async: true
-#  js: "window.onload = function() { console.warn('zero'); }"
+  #  favicon: https://monitor.bullwinkle.ml/icon.png
+  #  faviconSvg: https://monitor.bullwinkle.ml/images/icon.png
+  #  scripts:
+  #    - src: https://monitor.bullwinkle.ml/js/script-1.js
+  #    - src: https://monitor.bullwinkle.ml/js/script-2.js
+  #      async: true
+  #  js: "window.onload = function() { console.warn('zero'); }"
   links:
     - rel: stylesheet
       href: https://monitor.bullwinkle.ml/styles-test.css
-#  css: "body { opacity: 0.5 }"
+  #  css: "body { opacity: 0.5 }"
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
   customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
