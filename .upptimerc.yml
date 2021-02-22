@@ -9,7 +9,7 @@ assignees:
 status-website:
   links:
     - rel: stylesheet
-      href: assets/styles-test.css
+      href: https://bullwinkle-org.github.io/monitor-uptime/assets/styles-test.css
   name: "Bullwinkle_Upptime"
   cname: monitor.bullwinkle.ml # if you use custom domain
   theme: dark # light, dark, ocean
