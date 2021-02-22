@@ -10,23 +10,23 @@ sites:
   - name: bullwinkle.ml
     url: https://bullwinkle.ml
 
+  - name: static.bullwinkle.ml
+    url: https://static.bullwinkle.ml
+
   - name: ui.bullwinkle.ml
     url: https://ui.bullwinkle.ml
-
-  - name: db.bullwinkle.ml
-    url: https://db.bullwinkle.ml
 
   - name: data.bullwinkle.ml
     url: https://data.bullwinkle.ml
 
-  - name: static.bullwinkle.ml
-    url: https://static.bullwinkle.ml    
+  - name: db.bullwinkle.ml
+    url: https://db.bullwinkle.ml
 
   - name: workspace.bullwinkle.ml
     url: https://workspace.bullwinkle.ml
 
-  - name: realm-app-one.bullwinkle.ml
-    url: https://realm-app-one.bullwinkle.ml
+  - name: realm-one-app.bullwinkle.ml
+    url: https://realm-one-app.bullwinkle.ml
 
 status-website:
   name: "Bullwinkle's org upptime"
