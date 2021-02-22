@@ -41,7 +41,7 @@ status-website:
       href: /
 
     - title: About
-      href: /about.md
+      href: /about
 
     - title: "Bullwinkle's org on GitHub"
       href: https://github.com/$OWNER
