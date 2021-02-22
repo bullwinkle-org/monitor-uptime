@@ -1,10 +1,37 @@
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime  # Your GitHub repository name
 
+user-agent: bullwinkle-org
+
 assignees:
   - bullwinkle
-  
-user-agent: bullwinkle  
+
+status-website:
+  theme: ocean # light, dark, ocean
+  name: "Bullwinkle's org upptime"
+  cname: monitor.bullwinkle.ml # if you use custom domain
+  # baseUrl: /monitor-uptime # if you DO NOT use custom domain
+  logoUrl: https://avatars.githubusercontent.com/u/77125363?s=200&v=4
+  introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
+  introMessage: "internal stuff monitoring"
+  navbar:
+    - title: Status
+      href: /
+
+    - title: "Bullwinkle's org on GitHub"
+      href: https://github.com/$OWNER
+
+    - title: "Current repo page on GitHub"
+      href: https://github.com/$OWNER/$REPO
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 sites:
   - name: bullwinkle.ml
@@ -28,34 +55,26 @@ sites:
   - name: realm-one-app.bullwinkle.ml
     url: https://realm-one-app.bullwinkle.ml
 
-status-website:
-  name: "Bullwinkle's org upptime"
-  cname: monitor.bullwinkle.ml
-  # Custom domain below, or remove the next line if you don't have a domain
-  # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /monitor-uptime
-  theme: dark
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
-  introMessage: "internal stuff monitoring"
-  navbar:
-    - title: Status
-      href: /
+#  - name: google.com
+#    url: https://google.com
+#    method: POST
+#    headers:
+#      - "Authorization: Bearer $SECRET_SITE_2"
+#      - "Content-Type: application/json"
+#    body: '{ "password": "hello" }'
+#    assignees:
+#      - AnandChowdhary
+#    maxResponseTime: 5000
+#    expectedStatusCodes:
+#      - 200
+#      - 201
+#      - 404
+#    __dangerous__disable_verify_peer: true
+#    __dangerous__disable_verify_host: true
+#    __dangerous__insecure: true
+#    __dangerous__body_down: "File not found"
+#    __dangerous__body_degraded: "Site degraded"
 
-    - title: "Bullwinkle's org on GitHub"
-      href: https://github.com/$OWNER
-
-    - title: "Current repo page on GitHub"
-      href: https://github.com/$OWNER/$REPO
-
-workflowSchedule:
-  graphs: "0 0 * * *"
-  responseTime: "0 23 * * *"
-  staticSite: "0 1 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
