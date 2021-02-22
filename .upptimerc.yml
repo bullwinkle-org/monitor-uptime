@@ -1,50 +1,15 @@
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime  # Your GitHub repository name
-
 user-agent: bullwinkle
-
 assignees:
   - bullwinkle
-
 status-website:
   name: "Bullwinkle's org upptime"
   cname: monitor.bullwinkle.ml # if you use custom domain
-  # baseUrl: /monitor-uptime # if you DO NOT use custom domain
-  #  metaTags:
-  #    - name: "color-scheme"
-  #      content: "dark light"
-  #    - name: "robots"
-  #      content: "noindex"
-  #  robotsText: "User-agent: * \n Disallow: /"
   theme: dark # light, dark, ocean
-  #  apiBaseUrl: https://api.github.com
-  #  themeUrl: https://monitor.bullwinkle.ml/css/bullwinkle-theme-dark.css
   logoUrl: https://avatars.githubusercontent.com/u/77125363?s=400&u=62255c8e27ec580174f0c620b87c950a4d18f982&v=4
-  #  favicon: https://monitor.bullwinkle.ml/icon.png
-  #  faviconSvg: https://monitor.bullwinkle.ml/images/icon.png
-  #  scripts:
-  #    - src: https://monitor.bullwinkle.ml/js/script-1.js
-  #    - src: https://monitor.bullwinkle.ml/js/script-2.js
-  #      async: true
-  #  js: "window.onload = function() { console.warn('zero'); }"
-  links:
-    - rel: stylesheet
-      href: https://monitor.bullwinkle.ml/styles-test.css
-
-    - rel: stylesheet
-      href: https://monitor.bullwinkle.ml/assets/styles-test.css
-
-    - rel: stylesheet
-      href: styles-test.css
-
-    - rel: stylesheet
-      href: assets/styles-test.css
-  #  css: "body { opacity: 0.5 }"
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
-  #  customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
-  #  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
-
   navbar:
     - title: Status
       href: /
