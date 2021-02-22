@@ -1,8 +1,11 @@
-owner: bullwinkle-org # Your GitHub username
+owner: bullwinkle # Your GitHub username
 repo: monitor-uptime  # Your GitHub repository name
+
 user-agent: bullwinkle
+
 assignees:
   - bullwinkle
+
 status-website:
   name: "Bullwinkle's org upptime"
   cname: monitor.bullwinkle.ml # if you use custom domain
