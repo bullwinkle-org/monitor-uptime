@@ -27,9 +27,9 @@ status-website:
 #    - src: https://monitor.bullwinkle.ml/js/script-2.js
 #      async: true
 #  js: "window.onload = function() { console.warn('zero'); }"
-#  links:
-#    - rel: stylesheet
-#      href: https://monitor.bullwinkle.ml/css/styles-test.css
+  links:
+    - rel: stylesheet
+      href: https://monitor.bullwinkle.ml/styles-test.css
 #  css: "body { opacity: 0.5 }"
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
