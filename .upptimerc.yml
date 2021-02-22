@@ -1,13 +1,16 @@
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime # Your GitHub repository name
 
-user-agent: bullwinkle-org
+user-agent: bullwinkle
 
 assignees:
   - bullwinkle
 
 status-website:
-  name: "Bullwinkle's org upptime"
+  links:
+    - rel: stylesheet
+      href: https://example.com/custom-styles.css
+  name: "Bullwinkle_Upptime"
   cname: monitor.bullwinkle.ml # if you use custom domain
   theme: dark # light, dark, ocean
   logoUrl: https://avatars.githubusercontent.com/u/77125363?s=400&u=62255c8e27ec580174f0c620b87c950a4d18f982&v=4
@@ -53,6 +56,11 @@ sites:
 
   - name: realm-one-app.bullwinkle.ml
     url: https://realm-one-app.bullwinkle.ml
+
+
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
 
 #  - name: google.com
 #    url: https://google.com
