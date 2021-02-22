@@ -7,11 +7,11 @@ assignees:
   - bullwinkle
 
 status-website:
-  links:
-    - rel: stylesheet
-      href: https://bullwinkle-org.github.io/monitor-uptime/styles-test.css
   name: "Bullwinkle_Upptime"
   cname: monitor.bullwinkle.ml # if you use custom domain
+  links:
+    - rel: stylesheet
+      href: https://monitor.bullwinkle.ml/styles-test.css
   theme: dark # light, dark, ocean
   logoUrl: https://avatars.githubusercontent.com/u/77125363?s=400&u=62255c8e27ec580174f0c620b87c950a4d18f982&v=4
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
