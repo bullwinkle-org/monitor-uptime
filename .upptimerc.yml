@@ -1,6 +1,10 @@
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime # Your GitHub repository name
 
+sites:
+  - name: bullwinkle.ml
+    url: https://bullwinkle.ml
+
 status-website:
   name: "Bullwinkle-org's uptime monitor"
   cname: monitor.bullwinkle.ml # if you use custom domain
