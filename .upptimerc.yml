@@ -12,8 +12,8 @@ sites:
     url: https://data.bullwinkle.ml
   - name: db.bullwinkle.ml
     url: https://db.bullwinkle.ml
-  - name: workspace.bullwinkle.ml
-    url: https://workspace.bullwinkle.ml
+  - name: space.bullwinkle.ml
+    url: https://space.bullwinkle.ml
   - name: realm-one-app.bullwinkle.ml
     url: https://realm-one-app.bullwinkle.ml
 
@@ -27,10 +27,10 @@ status-website:
       content: "noindex"
   theme: dark # light, dark, ocean
   logoUrl: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/master/assets/brand.png
-  themeUrl: https://monitor.bullwinkle.ml/bullwinkle-theme-dark.css
-  links:
-    - rel: stylesheet
-      href: https://monitor.bullwinkle.ml/styles-test.css
+#   themeUrl: https://monitor.bullwinkle.ml/bullwinkle-theme-dark.css
+#   links:
+#     - rel: stylesheet
+#       href: https://monitor.bullwinkle.ml/styles-test.css
 
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
