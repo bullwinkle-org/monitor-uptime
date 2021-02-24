@@ -4,37 +4,48 @@ repo: monitor-uptime # Your GitHub repository name
 sites:
   - name: bullwinkle.ml
     url: https://bullwinkle.ml
-    
+
   - name: static.bullwinkle.ml
     url: https://static.bullwinkle.ml
-    
+
   - name: ui.bullwinkle.ml
     url: https://ui.bullwinkle.ml
-    
+
   - name: data.bullwinkle.ml
     url: https://data.bullwinkle.ml
-    
+
   - name: db.bullwinkle.ml
     url: https://db.bullwinkle.ml
-    
+
   - name: realm-one-app.bullwinkle.ml
     url: https://realm-one-app.bullwinkle.ml
 
 status-website:
+  theme: dark # light, dark, ocean
+  apiBaseUrl: https://api.github.com
+
   name: "Bullwinkle-org's uptime monitor"
   cname: monitor.bullwinkle.ml # if you use custom domain
-  baseUrl: /
+  #  favicon: https://example.com/favicon.png
+  #  faviconSvg: https://example.com/logo.svg
   metaTags:
     - name: "color-scheme"
       content: "dark light"
     - name: "robots"
       content: "noindex"
-  theme: dark # light, dark, ocean
-  logoUrl: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/master/assets/brand.png
-#   themeUrl: https://monitor.bullwinkle.ml/bullwinkle-theme-dark.css
-#   links:
-#     - rel: stylesheet
-#       href: https://monitor.bullwinkle.ml/styles-test.css
+  #  themeUrl: https://monitor.bullwinkle.ml/bullwinkle-theme-dark.css
+  logoUrl: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/master/assets/images/brand.png
+  #  links:
+  #    - rel: stylesheet
+  #      href: https://monitor.bullwinkle.ml/css/styles-test.css
+  #  scripts:
+  #    - src: https://monitor.bullwinkle.ml/js/script.js
+  #    - src: https://monitor.bullwinkle.ml/js/script-2.js
+  #      async: true
+  css: "body { opacity: 0.5 }"
+  customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
+  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
+  js: "window.onload = function() { console.warn('app started'); }"
 
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
