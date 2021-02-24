@@ -23,6 +23,7 @@ sites:
 status-website:
   name: "Bullwinkle-org's uptime monitor"
   cname: monitor.bullwinkle.ml # if you use custom domain
+  baseUrl: /
   metaTags:
     - name: "color-scheme"
       content: "dark light"
