@@ -34,7 +34,7 @@ status-website:
     - name: "robots"
       content: "noindex"
   #  themeUrl: https://monitor.bullwinkle.ml/bullwinkle-theme-dark.css
-  logoUrl: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/master/assets/images/brand.png
+  logoUrl: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/main/assets/images/brand.png
   #  links:
   #    - rel: stylesheet
   #      href: https://monitor.bullwinkle.ml/css/styles-test.css
