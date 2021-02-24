@@ -1,7 +1,7 @@
 owner: bullwinkle-org # Your GitHub username
 repo: monitor-uptime # Your GitHub repository name
 
-sites:
+sites: []
 
 status-website:
   name: "Bullwinkle-org's uptime monitor"
