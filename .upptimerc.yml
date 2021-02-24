@@ -26,6 +26,7 @@ sites:
 status-website:
   name: "Bullwinkle-org's uptime monitor"
   cname: monitor.bullwinkle.ml # if you use custom domain
+  baseUrl: /
   apiBaseUrl: https://api.github.com
   theme: dark # light, dark, ocean
   favicon: https://bullwinkle.ml/assets/images/icon.png
@@ -41,10 +42,10 @@ status-website:
     - rel: stylesheet
       href: https://bullwinkle.ml/assets/css/styles-test.css
   scripts:
-    - src: https://bullwinkle.ml/assets/js/script.js
+    - src: https://bullwinkle.ml/assets/js/script-1.js
     - src: https://bullwinkle.ml/assets/js/script-2.js
       async: true
-  css: "body { opacity: 0.5 }"
+  css: "body { font-size: initial; }"
   js: "window.onload = function() { console.warn('app started'); }"
   customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
   customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
