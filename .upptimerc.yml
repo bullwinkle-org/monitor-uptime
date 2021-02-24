@@ -1,37 +1,102 @@
-# Change these first
-owner: upptime # Your GitHub username
-repo: upptime # Your GitHub repository name
+owner: bullwinkle-org # Your GitHub username
+repo: monitor-uptime # Your GitHub repository name
 
-# Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
-  - name: Test for HEAD
-    method: HEAD
-    url: https://www.google.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: bullwinkle.ml
+    url: https://bullwinkle.ml
+
+  - name: static.bullwinkle.ml
+    url: https://static.bullwinkle.ml
+
+  - name: ui.bullwinkle.ml
+    url: https://ui.bullwinkle.ml
+
+  - name: data.bullwinkle.ml
+    url: https://data.bullwinkle.ml
+
+  - name: db.bullwinkle.ml
+    url: https://db.bullwinkle.ml
+
+  - name: realm-one-app.bullwinkle.ml
+    url: https://realm-one-app.bullwinkle.ml
 
 status-website:
-  # Add your custom domain below, or remove the next line if you don't have a domain
-  cname: demo.upptime.js.org
-  # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  theme: dark # light, dark, ocean
+  apiBaseUrl: https://api.github.com
+
+  name: "Bullwinkle-org's uptime monitor"
+  cname: monitor.bullwinkle.ml # if you use custom domain
+  #  favicon: https://example.com/favicon.png
+  #  faviconSvg: https://example.com/logo.svg
+  metaTags:
+    - name: "color-scheme"
+      content: "dark light"
+    - name: "robots"
+      content: "noindex"
+  #  themeUrl: https://monitor.bullwinkle.ml/bullwinkle-theme-dark.css
+  logoUrl: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/master/assets/images/brand.png
+  #  links:
+  #    - rel: stylesheet
+  #      href: https://monitor.bullwinkle.ml/css/styles-test.css
+  #  scripts:
+  #    - src: https://monitor.bullwinkle.ml/js/script.js
+  #    - src: https://monitor.bullwinkle.ml/js/script-2.js
+  #      async: true
+  css: "body { opacity: 0.5 }"
+  customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
+  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
+  js: "window.onload = function() { console.warn('app started'); }"
+
+  introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
+  introMessage: "internal stuff monitoring"
   navbar:
     - title: Status
       href: /
-    - title: GitHub
+
+    - title: "Bullwinkle's org on GitHub"
+      href: https://github.com/$OWNER
+
+    - title: "Current repo page on GitHub"
       href: https://github.com/$OWNER/$REPO
+
+user-agent: bullwinkle
+
+assignees:
+  - bullwinkle
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
+
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
+
+#  - name: google.com
+#    url: https://google.com
+#    method: POST
+#    headers:
+#      - "Authorization: Bearer $SECRET_SITE_2"
+#      - "Content-Type: application/json"
+#    body: '{ "password": "hello" }'
+#    assignees:
+#      - AnandChowdhary
+#    maxResponseTime: 5000
+#    expectedStatusCodes:
+#      - 200
+#      - 201
+#      - 404
+#    __dangerous__disable_verify_peer: true
+#    __dangerous__disable_verify_host: true
+#    __dangerous__insecure: true
+#    __dangerous__body_down: "File not found"
+#    __dangerous__body_degraded: "Site degraded"
+
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
