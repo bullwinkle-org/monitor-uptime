@@ -26,7 +26,7 @@ status-website:
 
   name: "Bullwinkle-org's uptime monitor"
   cname: monitor.bullwinkle.ml # if you use custom domain
-  #  favicon: https://example.com/favicon.png
+  favicon: https://raw.githubusercontent.com/bullwinkle-org/monitor-uptime/main/assets/images/favicon.png
   #  faviconSvg: https://example.com/logo.svg
   metaTags:
     - name: "color-scheme"
