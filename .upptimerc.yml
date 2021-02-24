@@ -24,11 +24,10 @@ sites:
     url: https://realm-one-app.bullwinkle.ml
 
 status-website:
-  theme: dark # light, dark, ocean
-  apiBaseUrl: https://api.github.com
-
   name: "Bullwinkle-org's uptime monitor"
   cname: monitor.bullwinkle.ml # if you use custom domain
+  apiBaseUrl: https://api.github.com
+  theme: dark # light, dark, ocean
   favicon: https://bullwinkle.ml/assets/images/icon.png
   #  faviconSvg: https://example.com/logo.svg
   metaTags:
@@ -38,18 +37,17 @@ status-website:
       content: "noindex"
   themeUrl: https://bullwinkle.ml/assets/css/upptime-monitor__theme-dark.css
   logoUrl: https://bullwinkle.ml/assets/images/brand.png
-    links:
-      - rel: stylesheet
-        href: https://bullwinkle.ml/assets/css/styles-test.css
-    scripts:
-      - src: https://bullwinkle.ml/assets/js/script.js
-      - src: https://bullwinkle.ml/assets/js/script-2.js
-        async: true
+  links:
+    - rel: stylesheet
+      href: https://bullwinkle.ml/assets/css/styles-test.css
+  scripts:
+    - src: https://bullwinkle.ml/assets/js/script.js
+    - src: https://bullwinkle.ml/assets/js/script-2.js
+      async: true
   css: "body { opacity: 0.5 }"
+  js: "window.onload = function() { console.warn('app started'); }"
   customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
   customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
-  js: "window.onload = function() { console.warn('app started'); }"
-
   introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
   introMessage: "internal stuff monitoring"
   navbar:
