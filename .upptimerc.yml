@@ -7,7 +7,7 @@ sites:
     icon: https://$ORG_DOMAIN/favicon.ico
 
 status-website:
-  name: "Bullwinkle and friends"
+  name: "Bullwinkle and friends status"
   cname: monitor.bullwinkle.ml # if you use custom domain
   baseUrl: /
   apiBaseUrl: https://api.github.com
@@ -41,14 +41,14 @@ status-website:
   customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
 
   navbar:
-    - title: Status
-      href: /
+    - title: Home
+      href: https://bullwinlke.ml
 
-    - title: "Bullwinkle's org on GitHub"
-      href: https://github.com/$OWNER
-
-    - title: "Current repo page on GitHub"
+    - title: "GitHub repo"
       href: https://github.com/$OWNER/$REPO
+
+    - title: "GitHub organization"
+      href: https://github.com/$OWNER
 
 user-agent: bullwinkle
 
