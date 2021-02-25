@@ -3,8 +3,8 @@ repo: monitor-uptime # Your GitHub repository name
 
 sites:
   - name: Bullwinkle and friends
-    url: https://bullwinkle.ml
-    icon: https://bullwinkle.ml/favicon.ico
+    url: https://$ORG_DOMAIN
+    icon: https://$ORG_DOMAIN/favicon.ico
 
 status-website:
   name: "Bullwinkle and friends"
