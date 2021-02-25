@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "name": "Bullwinkle and friends",
+    "url": "https://bullwinkle.ml",
+    "icon": "https://bullwinkle.ml/favicon.ico",
+    "slug": "bullwinkle-and-friends",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 229,
+    "timeDay": 229,
+    "timeWeek": 229,
+    "timeMonth": 229,
+    "timeYear": 229,
+    "dailyMinutesDown": {}
+  }
+]
