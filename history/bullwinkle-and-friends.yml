@@ -1,7 +1,7 @@
-url: https://bullwinkle.ml
+url: https://$ORG_DOMAIN
 status: up
 code: 200
-responseTime: 175
-lastUpdated: 2021-02-25T14:09:17.159Z
+responseTime: 213
+lastUpdated: 2021-02-25T14:17:02.420Z
 startTime: Thu Feb 25 2021 13:37:27 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
