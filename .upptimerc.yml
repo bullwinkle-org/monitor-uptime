@@ -7,13 +7,16 @@ sites:
     icon: https://bullwinkle.ml/favicon.ico
 
 status-website:
-  name: "Bullwinkle-org's uptime monitor"
+  name: "Bullwinkle and friends"
   cname: monitor.bullwinkle.ml # if you use custom domain
   baseUrl: /
   apiBaseUrl: https://api.github.com
   theme: dark # light, dark, ocean
-  favicon: https://bullwinkle.ml/assets/images/icon.png
-  #  faviconSvg: https://example.com/logo.svg
+  favicon: https://bullwinkle.ml/favicon.ico
+  faviconSvg: https://bullwinkle.ml/assets/favicon/favicon.svg
+
+  introTitle: "Uptime status page for **Bullwinkle and friends**"
+  introMessage: "Monitoring organization's web stuff. Powered by GitHub."
 
   metaTags:
     - name: "color-scheme"
@@ -36,9 +39,6 @@ status-website:
 
   customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
   customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
-
-  introTitle: "**Bullwinkle's org** uptime monitor and status page, powered entirely by GitHub."
-  introMessage: "internal stuff monitoring"
 
   navbar:
     - title: Status
